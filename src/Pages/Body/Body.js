@@ -4,7 +4,7 @@ import Body_Navigator from './Body_Navigator';
 const Body = () => {
     return (
         <div>
-            <Body_Navigator />    
+            <Body_Navigator />
         </div>
     );
 };

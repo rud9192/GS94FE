@@ -1,21 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 import Header from './Pages/Header/Header';
+import Body from './Pages/Body/Body';
+import Footer from './Pages/Footer/Footer';
 
-function App() {
+const App = () => {
   return (
     <div>
-      <header>
-        <Header />
-      </header>
-      <body>
-        <h1>body</h1>
-      </body>
-      <footer>
-        <h1>footer</h1>
-      </footer>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
-}
-
+};
 export default App;
